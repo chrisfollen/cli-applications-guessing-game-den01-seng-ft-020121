@@ -1,7 +1,7 @@
 # Code your solution here!
-require 'pry'
+
 def rando
-  num = (rand(5) + 1).to_s 
+  num = (rand(6) + 1).to_s 
   num
 end
 
@@ -10,8 +10,6 @@ def get_user_input
   input = gets.chomp
   input
 end
-
-
 
 def run_guessing_game
   comp_num = rando
